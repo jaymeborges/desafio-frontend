@@ -255,7 +255,7 @@ input{
     border-radius: 0px 0px 10px 10px;
     text-align: end;
 }
-button{
+#btn{
     border: 0px;
     width: 120px;
     height: 40px;
@@ -267,7 +267,7 @@ button{
     margin-right: 40px;
     cursor:pointer;
 }
-button:hover{
+#btn:hover{
     background-color: #666b95;
     -webkit-transition: background-color 100ms ease-in;
     transition: background-color 100ms ease-in;
@@ -293,17 +293,34 @@ button:hover{
 } 
 
 .info{
-    width: 81%;
+    width: 40%;
     height: 10px;
     background-color:var(--color-3) ;
     border: solid 1px var(--color-4);
     margin-bottom: 30px;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 5px;
+    padding: 8px;
 }
 .info-text{
     font-family: var(--font-padrao);
     margin-left: 7%;
+}
+#btn2{
+  border: 0px;
+  width: 120px;
+  height: 40px;
+  background-color: var(--color-5);
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  margin: 25px;
+  margin-right: 20px;
+  cursor:pointer;
+}
+#btn2:hover{
+  background-color: #666b95;
+  -webkit-transition: background-color 100ms ease-in;
+  transition: background-color 100ms ease-in;
 }
 
 /* mobile */
@@ -320,6 +337,9 @@ main{
   top: 10px;
   bottom: 10px;
   width: 320px;  
+}
+#btn2{
+  width: 90px;
 }
 }
 
