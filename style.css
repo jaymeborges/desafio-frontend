@@ -3,7 +3,7 @@
 	--color-1: #f1f1f1;
 	--color-2: #dce3e9;
 	--color-3: #dde3e8;
-    --color-4: #8a2be2;
+  --color-4: #8a2be2;
 	--color-5: #2f3676;
 	--color-6: #191847;
     
@@ -287,19 +287,39 @@ input{
     z-index: 2;
 }
 .checkout  h2{
-  font-size: 30px;
-  margin-top: 30px;
-  color: var(--color-4);
+   font-size: 30px;
+   margin-top: 30px;
+   color: var(--color-4);
 } 
 
 .info{
-    width: 40%;
+    width: 80%;
     height: 10px;
     background-color:var(--color-3) ;
     border: solid 1px var(--color-4);
     margin-bottom: 30px;
     border-radius: 5px;
     padding: 8px;
+}
+
+.info-data{
+    width: 30%;
+    height: 10px;
+    background-color:var(--color-3) ;
+    border: solid 1px var(--color-4);
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 8px;
+}
+.info-cvc{
+    width: 30%;
+    height: 10px;
+    background-color:var(--color-3) ;
+    border: solid 1px var(--color-4);
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 8px;
+
 }
 .info-text{
     font-family: var(--font-padrao);
@@ -313,8 +333,8 @@ input{
   border-radius: 5px;
   color: white;
   font-size: 15px;
-  margin: 25px;
-  margin-right: 20px;
+  margin-right: 45px;
+  margin-top: 25px;
   cursor:pointer;
 }
 #btn2:hover{
