@@ -45,7 +45,7 @@
                
 
                 <h2>Observações:</h2>
-                <input class="obs-text" type="text" name="text" id="" placeholder="Alguma dúvida? recado?">
+                <input class="obs-text" type="text" name="text" maxlength="40" id="" placeholder="Alguma dúvida? recado?">
 
                 <div class="footer">
                    <button id="btn" type="button">ENVIAR</button>
@@ -58,20 +58,11 @@
     
             <div class="checkout" id="area-users">     
             </div>
-        <!-- formulario de pagamento -->
-
-        <h2>Informe seu nome e email e finalize seu pedido.</h2>
-
-            <div class="info-text">Nome:</div>
-            <input class="info" type="text" name="text" id="nome" placeholder="Digite seu nome"><br>
-
-            <div class="info-text">Email:</div>
-            <input class="info" type="text" name="text" id="email" placeholder="Digite seu email">
-
-            <div class="footer">
-                <a href="index.html"> <button id="btn-voltar" type="button">CANCELAR</button></a>
-                <a href="pagina2.html"> <button id="btn-fim" type="button">FINALIZAR</button></a>
-            </div>
+    
+        <div class="footerCheckout">
+            <a href="index.html"> <button id="btn-voltar" type="button">CANCELAR</button></a>
+            <a href="pagina2.html"> <button id="btn-fim" type="button">FINALIZAR</button></a>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>

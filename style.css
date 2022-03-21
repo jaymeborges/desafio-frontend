@@ -273,31 +273,17 @@ button:hover{
     -webkit-transition: background-color 100ms ease-in;
     transition: background-color 100ms ease-in;
 }
-/* pagina principal */
-
 /* pagina de Checkout  */
+
 .containerCheckout{
     display: none;
     background-color: var(--color-1);
-    width:500px;
-    height:475px;
+    height: 510px;
     position: absolute;
     top: 252px;
     left: 50%;
     margin-left: -250px;
-    box-sizing: border-box;
     z-index: 1;
-}
-.checkout{
-    background-color: var(--color-3);
-    border: solid 1px var(--color-4);
-    border-radius: 10px;
-    height: 150px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-    overflow-y:auto;
 }
 .checkout h2{
     font-size: 28px;
@@ -305,10 +291,32 @@ button:hover{
     color: var(--color-4);
 }
 .checkout span{
-    font-size: 15px;
-    font-family: var(--font-padrao);
-    color: #3c454b;
+   word-wrap: break-word;
+   font-size: 18px;
+   color: rgb(87, 74, 74);
 }
+.footerCheckout{
+    background-color: var(--color-3);
+    bottom: 5px;
+    position: absolute;
+}
+#btn-fim{
+    border: 0px;
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-5);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin: 25px;
+    cursor:pointer;
+}
+#btn-fim:hover{
+    background-color: #666b95;
+    -webkit-transition: background-color 100ms ease-in;
+    transition: background-color 100ms ease-in;
+}
+/* pagina 2 */
 .info{
     width: 81%;
     height: 10px;
@@ -322,25 +330,8 @@ button:hover{
     font-family: var(--font-padrao);
     margin-left: 7%;
 }
-#btn-fim{
-    display: inline-block;
-    border: 0px;
-    width: 180px;
-    height: 40px;
-    background-color: var(--color-5);
-    border-radius: 5px;
-    color: white;
-    font-size: 15px;
-    margin: 25px;
-    margin-right: 40px;
-    cursor:pointer;
-}
-#btn-fim:hover{
-    background-color: #666b95;
-    -webkit-transition: background-color 100ms ease-in;
-    transition: background-color 100ms ease-in;
-}
-@media only screen and (max-width: 550px) {
+/* mobile */
+ @media only screen and (max-width: 430px) {
   body{
        background-color: var(--color-3);
        padding-top: 0px;
@@ -365,4 +356,4 @@ main{
       margin-top: 5px;
 }
 
-}
+} 
