@@ -27,7 +27,7 @@ main{
 .container{
     background-color: var(--color-1);
     box-shadow: 5px 3px 20px 0px rgba(0, 0, 0, 0.575);
-    max-width:500px;
+    width:500px;
     height: 100%;
     border-radius: 10px;
     margin: auto;
@@ -273,9 +273,21 @@ button:hover{
     -webkit-transition: background-color 100ms ease-in;
     transition: background-color 100ms ease-in;
 }
-/* pagina de Checkout  */
+/* pagina de pagmento */
 
-/* pagina 2 */
+.payWindow{
+    display: none;
+} 
+.container2{
+    background-color: var(--color-1);
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    width: 500px;
+    height: 720px;
+    z-index: 2;
+} 
+
 .info{
     width: 81%;
     height: 10px;
@@ -289,8 +301,9 @@ button:hover{
     font-family: var(--font-padrao);
     margin-left: 7%;
 }
+
 /* mobile */
- @media only screen and (max-width: 430px) {
+ /* @media only screen and (max-width: 430px) {
   body{
        background-color: var(--color-3);
        padding-top: 0px;
@@ -306,4 +319,4 @@ main{
 .header{
       border-radius: 0px 0px 0px 0px;
 }
-} 
+}  */

@@ -112,7 +112,7 @@ document.getElementById("btn").addEventListener("click", function(event){
 
    addCheckout(user)
 //abrir janela de Checkout
-   document.querySelector('.containerCheckout').style.display = 'flex'
+   document.querySelector('.payWindow').style.display = 'block'
 
 })
 // fechar janela de checkout
