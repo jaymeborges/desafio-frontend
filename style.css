@@ -275,47 +275,6 @@ button:hover{
 }
 /* pagina de Checkout  */
 
-.containerCheckout{
-    display: none;
-    background-color: var(--color-1);
-    height: 510px;
-    position: absolute;
-    top: 252px;
-    left: 50%;
-    margin-left: -250px;
-    z-index: 1;
-}
-.checkout h2{
-    font-size: 28px;
-    font-family: var(--font-padrao);
-    color: var(--color-4);
-}
-.checkout span{
-   word-wrap: break-word;
-   font-size: 18px;
-   color: rgb(87, 74, 74);
-}
-.footerCheckout{
-    background-color: var(--color-3);
-    bottom: 5px;
-    position: absolute;
-}
-#btn-fim{
-    border: 0px;
-    width: 180px;
-    height: 40px;
-    background-color: var(--color-5);
-    border-radius: 5px;
-    color: white;
-    font-size: 15px;
-    margin: 25px;
-    cursor:pointer;
-}
-#btn-fim:hover{
-    background-color: #666b95;
-    -webkit-transition: background-color 100ms ease-in;
-    transition: background-color 100ms ease-in;
-}
 /* pagina 2 */
 .info{
     width: 81%;
@@ -347,13 +306,4 @@ main{
 .header{
       border-radius: 0px 0px 0px 0px;
 }
-  .containerCheckout{
-      left: 0%;
-      margin-left: 0px;
-      max-width: 550px;
-}
-#btn-fim{
-      margin-top: 5px;
-}
-
 } 
